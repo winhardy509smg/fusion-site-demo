@@ -1,0 +1,22 @@
+/* style.css : CSS personnalisé pour compléter Tailwind */
+
+body {
+  transition: background 0.3s;
+}
+
+header {
+  /* Ajout d'un effet de drop shadow plus prononcé */
+  box-shadow: 0 8px 24px 0 rgba(60, 72, 120, 0.13);
+}
+
+section {
+  transition: box-shadow 0.2s;
+}
+
+section#features .shadow-lg:hover {
+  box-shadow: 0 12px 32px 0 rgba(120, 72, 180, 0.18);
+}
+
+input:focus, textarea:focus {
+  border-color: #7c3aed !important;
+}
